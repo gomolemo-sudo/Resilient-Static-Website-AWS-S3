@@ -5,12 +5,16 @@ In this project, I set up a static website for a café business using Amazon Sim
 
 ## Step 1: Creating an S3 Bucket for Website Hosting
 I started by creating an S3 bucket in the us-east-1 region. To make the website publicly accessible, I disabled the "Block all public access" setting and enabled static website hosting with index.html as the main entry point. This configuration provided a unique endpoint URL, allowing the website to be accessible online.
+
 ![unn](https://github.com/user-attachments/assets/41123ffe-0b9f-42dd-a4db-468faf091570)
 
 
 
 ## Step 2: Uploading Website Content
 I uploaded the static files, including index.html and folders for CSS and images, to the bucket. After uploading, I tested the endpoint URL in a browser to confirm that the website was accessible and displayed correctly.
+
+[Uploading Building a Resilient Static Website on Amazon S3_ Step-by-Step Guide - Google Docs.html…]()
+
 
 ## Step 3: Setting Up a Bucket Policy for Public Access
 To simplify managing public access, I created a bucket policy that grants read-only permissions to all users. This policy automatically ensures that any new files uploaded to the bucket are publicly accessible without needing manual adjustments, streamlining the process for future updates.
