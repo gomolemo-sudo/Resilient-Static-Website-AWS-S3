@@ -12,8 +12,7 @@ I started by creating an S3 bucket in the us-east-1 region. To make the website 
 
 ## Step 2: Uploading Website Content
 I uploaded the static files, including index.html and folders for CSS and images, to the bucket. After uploading, I tested the endpoint URL in a browser to confirm that the website was accessible and displayed correctly.
-
-[Uploading Building a Resilient Static Website on Amazon S3_ Step-by-Step Guide - Google Docs.html…]()
+![image](https://github.com/user-attachments/assets/0ab31026-5268-4e30-8cde-4de4fbce9492)
 
 
 ## Step 3: Setting Up a Bucket Policy for Public Access
