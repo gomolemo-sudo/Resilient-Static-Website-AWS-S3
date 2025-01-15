@@ -5,20 +5,25 @@ In this project, I set up a static website for a café business using Amazon Sim
 
 ## Step 1: Creating an S3 Bucket for Website Hosting
 I started by creating an S3 bucket in the us-east-1 region. To make the website publicly accessible, I disabled the "Block all public access" setting and enabled static website hosting with index.html as the main entry point. This configuration provided a unique endpoint URL, allowing the website to be accessible online.
+![image](https://github.com/user-attachments/assets/1067bef7-4115-444e-962b-fcf73efb0e0c)
 
-![unn](https://github.com/user-attachments/assets/41123ffe-0b9f-42dd-a4db-468faf091570)
-![image](https://github.com/user-attachments/assets/0ab31026-5268-4e30-8cde-4de4fbce9492)
 
 
 ## Step 2: Uploading Website Content
 I uploaded the static files, including index.html and folders for CSS and images, to the bucket. After uploading, I tested the endpoint URL in a browser to confirm that the website was accessible and displayed correctly.
+![image](https://github.com/user-attachments/assets/2e543ff5-9578-40b5-85a6-568df34cf633)
+
 
 
 ## Step 3: Setting Up a Bucket Policy for Public Access
 To simplify managing public access, I created a bucket policy that grants read-only permissions to all users. This policy automatically ensures that any new files uploaded to the bucket are publicly accessible without needing manual adjustments, streamlining the process for future updates.
+![image](https://github.com/user-attachments/assets/910cd8d0-b3b1-4725-b6fe-42b280f66cbe)
+
+
 
 ## Step 4: Step 4: Protecting Data with Versioning
 To safeguard against accidental deletions or overwrites, I enabled versioning on the bucket. I then made some modifications to the index.html file and re-uploaded it. By enabling versioning, I could see multiple versions of the file, which allows easy recovery of previous content if needed.
+
 
 ## Step 5: Implementing a Lifecycle Policy for Cost Optimization
 Since versioning can lead to increased storage usage, I implemented lifecycle policies to control costs. The first rule moves previous versions to the S3 Standard-Infrequent Access class after 30 days, and the second rule deletes them after 365 days. This approach optimizes storage expenses while maintaining data availability.
