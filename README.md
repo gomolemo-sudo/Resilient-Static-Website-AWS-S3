@@ -24,6 +24,7 @@ To simplify managing public access, I created a bucket policy that grants read-o
 
 ## Step 4: Step 4: Protecting Data with Versioning
 To safeguard against accidental deletions or overwrites, I enabled versioning on the bucket. I then made some modifications to the index.html file and re-uploaded it. By enabling versioning, I could see multiple versions of the file, which allows easy recovery of previous content if needed.
+
 ![image](https://github.com/user-attachments/assets/957b1e13-0e30-4b16-aa44-aa22ecc3488c)
 
 
