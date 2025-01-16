@@ -50,5 +50,5 @@ By leveraging Amazon S3 features like static website hosting, bucket policies, v
 
 ## Author  
 **Gomolemo Hlatshwayo**  
-- [LinkedIn](https://www.linkedin.com/in/lemon-paw)  
-- [GitHub](https://github.com/lemon-paw)  
+- [LinkedIn](https://www.linkedin.com/in/gomolemo-hlatshwayo-2b844522a/)  
+- [GitHub](https://github.com/gomolemo-sudo)  
